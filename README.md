@@ -9,11 +9,17 @@ the script groups by the subject and activity, then takes the mean of every vari
 # Output Variables
 
 Body.Acceleration.X.Mean.Avg = Average of mean body acceleration in X direction
+
 Body.Acceleration.Y.Mean.Avg = Average of mean body acceleration in Y direction
+
 Body.Acceleration.Z.Mean.Avg = Average of mean body acceleration in Z direction
+
 Body.Acceleration.X.Stdev.Avg = Average of body acceleration standard deviation in X direction
+
 Body.Acceleration.Y.Stdev.Avg = Average of body acceleration standard deviation in Y direction
+
 Body.Acceleration.Z.Stdev.Avg = Average of body acceleration standard deviation in Z direction
+
 Gravity.Acceleration.X.Mean.Avg = mean(Gravity.Acceleration.X.Mean),
 Gravity.Acceleration.Y.Mean.Avg = mean(Gravity.Acceleration.Y.Mean),
 Gravity.Acceleration.Z.Mean.Avg = mean(Gravity.Acceleration.Z.Mean),
