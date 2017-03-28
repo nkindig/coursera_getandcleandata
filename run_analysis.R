@@ -5,33 +5,15 @@ library(plyr)
 library(dplyr)
 
 #Input to function should be locations of test and training data
-run_analysis <- function(train_loc, test_loc) {
+run_analysis <- function() {
     
     #Read in all of the relevant datasets to R
-    subject_test <- read.table(paste(test_loc,"/subject_test.txt",sep=""))
-    X_test <- read.table(paste(test_loc,"/X_test.txt",sep=""))
-    Y_test <- read.table(paste(test_loc,"/Y_test.txt",sep=""))
-    body_acc_x_test <- read.table(paste(test_loc,"/Inertial Signals/body_acc_x_test.txt",sep=""))
-    body_acc_y_test <- read.table(paste(test_loc,"/Inertial Signals/body_acc_y_test.txt",sep=""))
-    body_acc_z_test <- read.table(paste(test_loc,"/Inertial Signals/body_acc_z_test.txt",sep=""))
-    body_gyro_x_test <- read.table(paste(test_loc,"/Inertial Signals/body_gyro_x_test.txt",sep=""))
-    body_gyro_y_test <- read.table(paste(test_loc,"/Inertial Signals/body_gyro_y_test.txt",sep=""))
-    body_gyro_z_test <- read.table(paste(test_loc,"/Inertial Signals/body_gyro_z_test.txt",sep=""))
-    total_acc_x_test <- read.table(paste(test_loc,"/Inertial Signals/total_acc_x_test.txt",sep=""))
-    total_acc_y_test <- read.table(paste(test_loc,"/Inertial Signals/total_acc_y_test.txt",sep=""))
-    total_acc_z_test <- read.table(paste(test_loc,"/Inertial Signals/total_acc_z_test.txt",sep=""))
-    subject_train <- read.table(paste(train_loc,"/subject_train.txt",sep=""))
-    X_train <- read.table(paste(train_loc,"/X_train.txt",sep=""))
-    Y_train <- read.table(paste(train_loc,"/Y_train.txt",sep=""))
-    body_acc_x_train <- read.table(paste(train_loc,"/Inertial Signals/body_acc_x_train.txt",sep=""))
-    body_acc_y_train <- read.table(paste(train_loc,"/Inertial Signals/body_acc_y_train.txt",sep=""))
-    body_acc_z_train <- read.table(paste(train_loc,"/Inertial Signals/body_acc_z_train.txt",sep=""))
-    body_gyro_x_train <- read.table(paste(train_loc,"/Inertial Signals/body_gyro_x_train.txt",sep=""))
-    body_gyro_y_train <- read.table(paste(train_loc,"/Inertial Signals/body_gyro_y_train.txt",sep=""))
-    body_gyro_z_train <- read.table(paste(train_loc,"/Inertial Signals/body_gyro_z_train.txt",sep=""))
-    total_acc_x_train <- read.table(paste(train_loc,"/Inertial Signals/total_acc_x_train.txt",sep=""))
-    total_acc_y_train <- read.table(paste(train_loc,"/Inertial Signals/total_acc_y_train.txt",sep=""))
-    total_acc_z_train <- read.table(paste(train_loc,"/Inertial Signals/total_acc_z_train.txt",sep=""))
+    subject_test <- read.table("./test/subject_test.txt")
+    X_test <- read.table("./test/X_test.txt")
+    Y_test <- read.table("./test/Y_test.txt")
+    subject_train <- read.table("./train/subject_train.txt")
+    X_train <- read.table("./train/X_train.txt")
+    Y_train <- read.table("./train/Y_train.txt")
     
     #Rename columns identifying the subject and activity
     names(subject_test)[names(subject_test)=="V1"] <- "Subject"
