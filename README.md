@@ -20,63 +20,122 @@ Body.Acceleration.Y.Stdev.Avg = Average of body acceleration standard deviation 
 
 Body.Acceleration.Z.Stdev.Avg = Average of body acceleration standard deviation in Z direction
 
-Gravity.Acceleration.X.Mean.Avg = mean(Gravity.Acceleration.X.Mean),
-Gravity.Acceleration.Y.Mean.Avg = mean(Gravity.Acceleration.Y.Mean),
-Gravity.Acceleration.Z.Mean.Avg = mean(Gravity.Acceleration.Z.Mean),
-Gravity.Acceleration.X.Stdev.Avg = mean(Gravity.Acceleration.X.Stdev),
-Gravity.Acceleration.Y.Stdev.Avg = mean(Gravity.Acceleration.Y.Stdev),
-Gravity.Acceleration.Z.Stdev.Avg = mean(Gravity.Acceleration.Z.Stdev),
-Body.Acceleration.Jerk.X.Mean.Avg = mean(Body.Acceleration.Jerk.X.Mean),
-Body.Acceleration.Jerk.Y.Mean.Avg = mean(Body.Acceleration.Jerk.Y.Mean),
-Body.Acceleration.Jerk.Z.Mean.Avg = mean(Body.Acceleration.Jerk.Z.Mean),
-Body.Acceleration.Jerk.X.Stdev.Avg = mean(Body.Acceleration.Jerk.X.Stdev),
-Body.Acceleration.Jerk.Y.Stdev.Avg = mean(Body.Acceleration.Jerk.Y.Stdev),
-Body.Acceleration.Jerk.Z.Stdev.Avg = mean(Body.Acceleration.Jerk.Z.Stdev),
-Body.Gyroscope.X.Mean.Avg = mean(Body.Gyroscope.X.Mean),
-Body.Gyroscope.Y.Mean.Avg = mean(Body.Gyroscope.Y.Mean),
-Body.Gyroscope.Z.Mean.Avg = mean(Body.Gyroscope.Z.Mean),
-Body.Gyroscope.X.Stdev.Avg = mean(Body.Gyroscope.X.Stdev),
-Body.Gyroscope.Y.Stdev.Avg = mean(Body.Gyroscope.Y.Stdev),
-Body.Gyroscope.Z.Stdev.Avg = mean(Body.Gyroscope.Z.Stdev),
-Body.Gyroscope.Jerk.X.Mean.Avg = mean(Body.Gyroscope.Jerk.X.Mean),
-Body.Gyroscope.Jerk.Y.Mean.Avg = mean(Body.Gyroscope.Jerk.Y.Mean),
-Body.Gyroscope.Jerk.Z.Mean.Avg = mean(Body.Gyroscope.Jerk.Z.Mean),
-Body.Gyroscope.Jerk.X.Stdev.Avg = mean(Body.Gyroscope.Jerk.X.Stdev),
-Body.Gyroscope.Jerk.Y.Stdev.Avg = mean(Body.Gyroscope.Jerk.Y.Stdev),
-Body.Gyroscope.Jerk.Z.Stdev.Avg = mean(Body.Gyroscope.Jerk.Z.Stdev),
-Body.Acceleration.Magnitude.Mean.Avg = mean(Body.Acceleration.Magnitude.Mean),
-Body.Acceleration.Magnitude.Stdev.Avg = mean(Body.Acceleration.Magnitude.Stdev),
-Gravity.Acceleration.Magnitude.Mean.Avg = mean(Gravity.Acceleration.Magnitude.Mean),
-Gravity.Acceleration.Magnitude.Stdev.Avg = mean(Gravity.Acceleration.Magnitude.Stdev),
-Body.Acceleration.Jerk.Magnitude.Mean.Avg = mean(Body.Acceleration.Jerk.Magnitude.Mean),
-Body.Acceleration.Jerk.Magnitude.Stdev.Avg = mean(Body.Acceleration.Jerk.Magnitude.Stdev),
-Body.Gyroscope.Magnitude.Mean.Avg = mean(Body.Gyroscope.Magnitude.Mean),
-Body.Gyroscope.Magnitude.Stdev.Avg = mean(Body.Gyroscope.Magnitude.Stdev),
-Body.Gyroscope.Jerk.Magnitude.Mean.Avg = mean(Body.Gyroscope.Jerk.Magnitude.Mean),
-Body.Gyroscope.Jerk.Magnitude.Stdev.Avg = mean(Body.Gyroscope.Jerk.Magnitude.Stdev),
-Freq.Body.Acceleration.X.Mean.Avg = mean(Freq.Body.Acceleration.X.Mean),
-Freq.Body.Acceleration.Y.Mean.Avg = mean(Freq.Body.Acceleration.Y.Mean),
-Freq.Body.Acceleration.Z.Mean.Avg = mean(Freq.Body.Acceleration.Z.Mean),
-Freq.Body.Acceleration.X.Stdev.Avg = mean(Freq.Body.Acceleration.X.Stdev),
-Freq.Body.Acceleration.Y.Stdev.Avg = mean(Freq.Body.Acceleration.Y.Stdev),
-Freq.Body.Acceleration.Z.Stdev.Avg = mean(Freq.Body.Acceleration.Z.Stdev),
-Freq.Body.Acceleration.Jerk.X.Mean.Avg = mean(Freq.Body.Acceleration.Jerk.X.Mean),
-Freq.Body.Acceleration.Jerk.Y.Mean.Avg = mean(Freq.Body.Acceleration.Jerk.Y.Mean),
-Freq.Body.Acceleration.Jerk.Z.Mean.Avg = mean(Freq.Body.Acceleration.Jerk.Z.Mean),
-Freq.Body.Acceleration.Jerk.X.Stdev.Avg = mean(Freq.Body.Acceleration.Jerk.X.Stdev),
-Freq.Body.Acceleration.Jerk.Y.Stdev.Avg = mean(Freq.Body.Acceleration.Jerk.Y.Stdev),
-Freq.Body.Acceleration.Jerk.Z.Stdev.Avg = mean(Freq.Body.Acceleration.Jerk.Z.Stdev),
-Freq.Body.Gyroscope.X.Mean.Avg = mean(Freq.Body.Gyroscope.X.Mean),
-Freq.Body.Gyroscope.Y.Mean.Avg = mean(Freq.Body.Gyroscope.Y.Mean),
-Freq.Body.Gyroscope.Z.Mean.Avg = mean(Freq.Body.Gyroscope.Z.Mean),
-Freq.Body.Gyroscope.X.Stdev.Avg = mean(Freq.Body.Gyroscope.X.Stdev),
-Freq.Body.Gyroscope.Y.Stdev.Avg = mean(Freq.Body.Gyroscope.Y.Stdev),
-Freq.Body.Gyroscope.Z.Stdev.Avg = mean(Freq.Body.Gyroscope.Z.Stdev),
-Freq.Body.Acceleration.Magnitude.Mean.Avg = mean(Freq.Body.Acceleration.Magnitude.Mean),
-Freq.Body.Acceleration.Magnitude.Stdev.Avg = mean(Freq.Body.Acceleration.Magnitude.Stdev),
-Freq.Body.Acceleration.Jerk.Magnitude.Mean.Avg = mean(Freq.Body.Acceleration.Jerk.Magnitude.Mean),
-Freq.Body.Acceleration.Jerk.Magnitude.Stdev.Avg = mean(Freq.Body.Acceleration.Jerk.Magnitude.Stdev),
-Freq.Body.Gyroscope.Magnitude.Mean.Avg = mean(Freq.Body.Gyroscope.Magnitude.Mean),
-Freq.Body.Gyroscope.Magnitude.Stdev.Avg = mean(Freq.Body.Gyroscope.Magnitude.Stdev),
-Freq.Body.Gyroscope.Jerk.Magnitude.Mean.Avg = mean(Freq.Body.Gyroscope.Jerk.Magnitude.Mean),
-Freq.Body.Gyroscope.Jerk.Magnitude.Stdev.Avg = mean(Freq.Body.Gyroscope.Jerk.Magnitude.Stdev)
+Gravity.Acceleration.X.Mean.Avg = Average of mean gravity acceleration in X direction
+
+Gravity.Acceleration.Y.Mean.Avg = Average of mean gravity acceleration in Y direction
+
+Gravity.Acceleration.Z.Mean.Avg = Average of mean gravity acceleration in Z direction
+
+Gravity.Acceleration.X.Stdev.Avg = Average of gravity acceleration standard deviation in X direction
+
+Gravity.Acceleration.Y.Stdev.Avg = Average of gravity acceleration standard deviation in Y direction
+
+Gravity.Acceleration.Z.Stdev.Avg = Average of gravity acceleration standard deviation in Z direction
+
+Body.Acceleration.Jerk.X.Mean.Avg = Average of mean body acceleration jerk in X direction
+
+Body.Acceleration.Jerk.Y.Mean.Avg = Average of mean body acceleration jerk in Y direction
+
+Body.Acceleration.Jerk.Z.Mean.Avg = Average of mean body acceleration jerk in Z direction
+
+Body.Acceleration.Jerk.X.Stdev.Avg = Average of body acceleration jerk standard deviation in X direction
+
+Body.Acceleration.Jerk.Y.Stdev.Avg = Average of body acceleration jerk standard deviation in Y direction
+
+Body.Acceleration.Jerk.Z.Stdev.Avg = Average of body acceleration jerk standard deviation in Z direction
+
+Body.Gyroscope.X.Mean.Avg = Average of mean body gyroscope in X direction
+
+Body.Gyroscope.Y.Mean.Avg = Average of mean body gyroscope in Y direction
+
+Body.Gyroscope.Z.Mean.Avg = Average of mean body gyroscope in Z direction
+
+Body.Gyroscope.X.Stdev.Avg = Average of body gyroscope standard deviation in X direction
+
+Body.Gyroscope.Y.Stdev.Avg = Average of body gyroscope standard deviation in Y direction
+
+Body.Gyroscope.Z.Stdev.Avg = Average of body gyroscope standard deviation in Z direction
+
+Body.Gyroscope.Jerk.X.Mean.Avg = Average of mean body gyroscope jerk in X direction
+
+Body.Gyroscope.Jerk.Y.Mean.Avg = Average of mean body gyroscope jerk in Y direction
+
+Body.Gyroscope.Jerk.Z.Mean.Avg = Average of mean body gyroscope jerk in Z direction
+
+Body.Gyroscope.Jerk.X.Stdev.Avg = Average of body gyroscope jerk standard deviation in X direction
+
+Body.Gyroscope.Jerk.Y.Stdev.Avg = Average of body gyroscope jerk standard deviation in Y direction
+
+Body.Gyroscope.Jerk.Z.Stdev.Avg = Average of body gyroscope jerk standard deviation in Z direction
+
+Body.Acceleration.Magnitude.Mean.Avg = Average of mean body acceleration magnitude
+
+Body.Acceleration.Magnitude.Stdev.Avg = Average of body acceleration magnitude standard deviation
+
+Gravity.Acceleration.Magnitude.Mean.Avg = Average of mean gravity acceleration magnitude
+
+Gravity.Acceleration.Magnitude.Stdev.Avg = Average of gravity acceleration magnitude standard deviation
+
+Body.Acceleration.Jerk.Magnitude.Mean.Avg = Average of mean body acceleration jerk magnitude
+
+Body.Acceleration.Jerk.Magnitude.Stdev.Avg = Average of body acceleration jerk magnitude standard deviation
+
+Body.Gyroscope.Magnitude.Mean.Avg = Average of mean body gyroscope magnitude 
+
+Body.Gyroscope.Magnitude.Stdev.Avg = Average of body gyroscope magnitude standard deviation
+
+Body.Gyroscope.Jerk.Magnitude.Mean.Avg = Average of mean body gyroscope jerk magnitude
+
+Body.Gyroscope.Jerk.Magnitude.Stdev.Avg = Average of body gyroscope jerk magnitude standard deviation
+
+Freq.Body.Acceleration.X.Mean.Avg = Average of mean frequency body acceleration in X direction
+
+Freq.Body.Acceleration.Y.Mean.Avg = Average of mean frequency body acceleration in Y direction
+
+Freq.Body.Acceleration.Z.Mean.Avg = Average of mean frequency body acceleration in Z direction
+
+Freq.Body.Acceleration.X.Stdev.Avg = Average of frequency body acceleration standard deviation in X direction
+
+Freq.Body.Acceleration.Y.Stdev.Avg = Average of frequency body acceleration standard deviation in Y direction
+
+Freq.Body.Acceleration.Z.Stdev.Avg = Average of frequency body acceleration standard deviation in Z direction
+
+Freq.Body.Acceleration.Jerk.X.Mean.Avg = Average of mean frequency body acceleration jerk in X direction
+
+Freq.Body.Acceleration.Jerk.Y.Mean.Avg = Average of mean frequency body acceleration jerk in Y direction
+
+Freq.Body.Acceleration.Jerk.Z.Mean.Avg = Average of mean frequency body acceleration jerk in Z direction
+
+Freq.Body.Acceleration.Jerk.X.Stdev.Avg = Average of frequency body acceleration jerk standard deviation in X direction
+
+Freq.Body.Acceleration.Jerk.Y.Stdev.Avg = Average of frequency body acceleration jerk standard deviation in Y direction
+
+Freq.Body.Acceleration.Jerk.Z.Stdev.Avg = Average of frequency body acceleration jerk standard deviation in Z direction
+
+Freq.Body.Gyroscope.X.Mean.Avg = Average of mean frequency body gyroscope in X direction
+
+Freq.Body.Gyroscope.Y.Mean.Avg = Average of mean frequency body gyroscope in Y direction
+
+Freq.Body.Gyroscope.Z.Mean.Avg = Average of mean frequency body gyroscope in Z direction
+
+Freq.Body.Gyroscope.X.Stdev.Avg = Average of frequency body gyroscope standard deviation in X direction
+
+Freq.Body.Gyroscope.Y.Stdev.Avg = Average of frequency body gyroscope standard deviation in Y direction
+
+Freq.Body.Gyroscope.Z.Stdev.Avg = Average of frequency body gyroscope standard deviation in Z direction
+
+Freq.Body.Acceleration.Magnitude.Mean.Avg = Average of mean frequency body acceleration magnitude
+
+Freq.Body.Acceleration.Magnitude.Stdev.Avg = Average of frequency body acceleration magnitude standard deviation
+
+Freq.Body.Acceleration.Jerk.Magnitude.Mean.Avg = Average of mean frequency body acceleration jerk magnitude
+
+Freq.Body.Acceleration.Jerk.Magnitude.Stdev.Avg = Average of frequency body acceleration jerk magnitude standard deviation
+
+Freq.Body.Gyroscope.Magnitude.Mean.Avg = Average of mean frequency body gyroscope magnitude
+
+Freq.Body.Gyroscope.Magnitude.Stdev.Avg = Average of frequency body gyroscope magnitude standard deviation
+
+Freq.Body.Gyroscope.Jerk.Magnitude.Mean.Avg = Average of mean frequency body gyroscope jerk magnitude
+
+Freq.Body.Gyroscope.Jerk.Magnitude.Stdev.Avg = Average of frequency body gyroscope jerk magnitude standard deviation
